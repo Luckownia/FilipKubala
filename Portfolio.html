@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FilipKubala.pl</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/ce9a2f3e3d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <!--Logo po jego kliknięciu przenosi do Home -->
+        <div class="logo"><a href="#">FilipKubala.pl</a></div>
+        <!--Menu -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#AboutMe">About</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <!--Button Burger służy do wysunięcia menu przewijanego -->
+        <button class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+    <header>
+        <div class="info">
+            <h1>Hi I'm Filip Kubala</h1>
+            <h2>I am a front-end-developer</h2>
+            <button> <a href="#AboutMe" class="btnLink">Learn More</a></button>
+        </div>
+        <!--Scroll po kliknięciu przenusi na góre strony -->
+        <a href="#" class="scrollUp"><i class="fas fa-arrow-up"></i></a>
+    </header>
+    <article id="AboutMe">
+
+        <h1 class="heading">About ME</h1>
+        <div class="About-me">
+            <div class="infoAboutMe">
+                <img src="awatar.png" alt="" class="image">
+                <p>
+                    I'am Filip Kubala. I am 17 years old. I live in beatiful town Gorlice. I attend to I High School M.Kromer. My hobbys are programing, riding a bike, traveling, playing computer games. I study programing since I was 15 years old. I love what I doing.
+                </p>
+
+            </div>
+            <a href="#" class="btn-Download-Cv" target="_blank">Download CV</a>
+        </div>
+    </article>
+    <article id="Works">
+        <h1 class="heading">Works</h1>
+        <p class="paragraph">These are my works:</p>
+        <article id="WorksGroup">
+            <section class="workWebPage">
+                <a href="#" class="workLink">
+                    <img src="luckownia.png" alt="" class="work">
+                    <p class="title">Luckownia.pl</p>
+                    <div class="desc-about-work">
+                        <p>This is my first web page. Luckownia.pl is a news website where you can figure out about the newest news</p>
+                    </div>
+                </a>
+            </section>
+            <section class="workWebPage">
+                <a href="https://codepen.io/freeCodeCamp/full/RKRbwL" target="_blank" class="workLink">
+                    <img src="orginal-trombes.png" alt="" class="work">
+                    <p class="title">Original-Trombones.com</p>
+                    <div class="desc-about-work">
+                        <p>This webpage I have done during freecodecamp course. The webpage is a shop where you can buy many kind of trombones</p>
+                    </div>
+                </a>
+            </section>
+            <section class="workWebPage">
+                <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="workLink">
+                    <img src="tribute-page.png" alt="" class="work">
+                    <p class="title">Tribute-Page.com</p>
+                    <div class="desc-about-work">
+                        <p>This webpage I have done during freecodecamp course. The webpage is a blog about Dr.Normand who saved a billion lives</p>
+                    </div>
+                </a>
+            </section>
+        </article>
+    </article>
+    <article id="Skills">
+        <h1 class="heading">Skills</h1>
+        <p class="paragraph">I programme with these language:</p>
+        <article id="languageGroup">
+            <section class="programmingLanguage">
+                <div class="language"><i class="fab fa-html5"></i></div>
+                <p>I have been studying HTML since one year, I have watched much hours movies or courses on youtube about HTML, I finished freecodecamp course which I much learned about HTML, I can do responsive web page, I can do accessibility web page for people disabled. I have done many projects by HTML </p>
+            </section>
+            <section class="programmingLanguage">
+                <div class="language"><i class="fab fa-css3-alt"></i></div>
+                <p>I have been studying CSS since one year,I have watched much hours movies or courses on youtube about CSS,I finished freecodecamp course which I much learned about CSS, I can do responsive web page use media queries,I can position elements on web page by flexbox, grid, display:block, position etc. I have done many projects by CSS</p>
+            </section>
+            <section class="programmingLanguage">
+                <div class="language"><i class="fab fa-js"></i></div>
+                <p>I have been studying JavaScript since 8months,I have watched much hours movies or courses on youtube about JavaScript.I finished grasshopper Course. I can do simple things by Javascript but I still develop my knowledge. </p>
+            </section>
+        </article>
+        <article class="Certifacts">
+            <p class="paragraph">These are my certificates:</p>
+            <section class="certifactGroup">
+                <a href="Certyfikat_FreeCodeCamp.png" class="download-certifact" download="Certyfikat_FreeCodeCamp.png" target="_blank">Download Certificate</a>
+                <a href="javascript.png" class="download-certifact" download="javascript.png" target="_blank">Download Certificate</a>
+                <a href="sololearn_js.jpg" class="download-certifact" download="sololearn_js.jpg" target="_blank">Download Certificate</a>
+            </section>
+        </article>
+    </article>
+    <article id="Contact">
+        <h1 class="heading">Contact</h1>
+        <section class="social-media">
+            <a href="https://www.messenger.com/t/Luckownia" class="ms-link" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+            <a href="https://www.youtube.com/channel/UCpsYjEUtLaerKRZ7gBoMlIA?view_as=subscriber" class="yt-link" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/Luckownia" class="github-link" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/48729975547" target="_blank" class="what-link"><i class="fab fa-whatsapp"> </i></a>
+        </section>
+        <section class="form">
+            <form action="">
+                <h2>To be in Touch</h2>
+                <div class="get-in-touch">
+                    <label for="name" class="name-Label">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="8" placeholder="Enter your message"></textarea>
+                    <button class="btn-form" type="submit">Submit</button>
+                </div>
+            </form>
+
+        </section>
+    </article>
+    <footer>This webpage was did by Filip Kubala &copy; 2020 </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
